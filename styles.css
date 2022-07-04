@@ -1,0 +1,29 @@
+*{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header {
+    height: 69px;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+.flex_item1 .logo{
+    padding-left: 10px;
+    height:50px;
+}
+
+.flex_item2 li{
+    display: inline;
+    padding: 10px;
+}
+
